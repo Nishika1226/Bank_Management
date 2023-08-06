@@ -27,7 +27,7 @@ public class loginservlet extends HttpServlet
 		RequestDispatcher rd;
 		if(isvalid==true)
 		{
-//			HttpSession session = request.getSession(false);
+			HttpSession session = request.getSession();
 //			if(session!=null)
 //			{
 //				session.invalidate();

@@ -7,7 +7,7 @@
 <%@include file="/include/head.jsp"%>
 </head>
 <body>
-<%%>
+<%session.invalidate(); %>
 
  <%@include file="/include/header.jsp"%>
    <section id="hero" class="d-flex align-items-center" >
